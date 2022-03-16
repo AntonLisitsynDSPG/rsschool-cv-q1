@@ -9,6 +9,7 @@ var isAnagram = function(test, original) {
   let firstWord = test.toLowerCase().split("").sort().join("");
   let secondWord = original.toLowerCase().split("").sort().join("");
   return (firstWord === secondWord) ? true: false;
-};```
+};
+```
 6. Education - Higher pedagogical education.
 7. English language - Basic.
